@@ -3,4 +3,4 @@
 -DONE Install and setup  (Django)
 -DONE Install and setup (Vue)
 -DONE Include Font Awesome
--Set up the base template
+-DONE Set up the base template
