@@ -5,3 +5,5 @@
 -DONE Include Font Awesome
 -DONE Set up the base template
 -DONE Create django app and models for products
+-DONE Create serializer and views for the products
+-Create simple front page (latest products)
