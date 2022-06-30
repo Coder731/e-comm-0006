@@ -4,3 +4,4 @@
 -DONE Install and setup (Vue)
 -DONE Include Font Awesome
 -DONE Set up the base template
+-DONE Create django app and models for products
