@@ -18,4 +18,7 @@
     -Add button to product range
     -Show a toast message
 -DONE Implement a loading bar
--Set document title (All pages) 
+-DONE Set document title (All pages) 
+-DONE Make it possible to view a category
+    -Convert the product to a component
+-Add search functionality
