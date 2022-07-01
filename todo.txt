@@ -13,7 +13,7 @@
     -Add link to detail page
 -DONE Set up Vuex / State Management
 -Make it possible to add to cart
-    -Add functionality to vuex
+    -DONE Add functionality to vuex
     -Initialize store in app.vue
     -Add button to porduct range
     -Show a toast message
