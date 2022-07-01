@@ -12,8 +12,10 @@
     -Create vue page for showing product
     -Add link to detail page
 -DONE Set up Vuex / State Management
--Done Make it possible to add to cart
+-DONE Make it possible to add to cart
     -Add functionality to vuex
     -Initialize store in app.vue
     -Add button to product range
     -Show a toast message
+-DONE Implement a loading bar
+-Set document title (All pages) 
