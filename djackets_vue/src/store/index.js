@@ -29,6 +29,7 @@ export default createStore({
       }
 
       localStorage.setItem('cart', JSON.stringify(state.cart))
+    }
   },
   actions: {
   },
