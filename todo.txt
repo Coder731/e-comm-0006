@@ -22,5 +22,8 @@
 -DONE Make it possible to view a category
     -Convert the product to a component
 -DONE Add search functionality
--View cart
+-DONE View cart
     -A cart item should be a component
+-Change contents of cart
+    -Increment/Decrement content
+    -Remove from cart
