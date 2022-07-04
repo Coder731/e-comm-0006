@@ -11,7 +11,7 @@
         </a>
       </div>
 
-      <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active': showMobileMenu}">
+      <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active': showMobileMenu }">
         <div class="navbar-start">
           <div class="navbar-item">
             <form method="get" action="/search">
@@ -19,7 +19,6 @@
                 <div class="control">
                   <input type="text" class="input" placeholder="What are you looking for?" name="query">
                 </div>
-                
                 <div class="control">
                   <button class="button is-success">
                       <span class="icon">
@@ -46,7 +45,7 @@
                 <router-link to="/log-in" class="button is-light">Log in</router-link>
               </template>
 
-              <router-link to="cart" class="button is-success">
+              <router-link to="/cart" class="button is-success">
                 <span class="icon"><i class="fas fa-shopping-cart"></i></span>
                 <span>Cart ({{ cartTotalLength }})</span>
               </router-link>

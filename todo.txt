@@ -30,4 +30,5 @@
 -DONE Make it possible to sign up
 -DONE Make it possible to log in
 -DONE Create a simple my account page
--Proceed to checkout (Authentication) 
+-DONE Proceed to checkout (Authentication)
+-Create a simple success page
