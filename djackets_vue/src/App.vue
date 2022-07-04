@@ -37,8 +37,14 @@
           <router-link to="/winter" class="navbar-item">Winter</router-link> 
 
           <div class="navbar-item">
-            <div classs="buttons">
-              <router-link to="/log-in" class="button is-light">Log in</router-link>
+            <div class="buttons">
+              <template v-if="$store.state.isAuthenticated">
+                <router-link to="/my-account" class="button is-light">My account</router-link>
+              </template>
+
+              <template v-else>
+                <router-link to="/log-in" class="button is-light">Log in</router-link>
+              </template>
 
               <router-link to="cart" class="button is-success">
                 <span class="icon"><i class="fas fa-shopping-cart"></i></span>
