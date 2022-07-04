@@ -28,4 +28,5 @@
     -Increment/Decrement content
     -Remove from cart
 -DONE Make it possible to sign up
--Make it possible to log in
+-DONE Make it possible to log in
+-Create a simple success page
