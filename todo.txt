@@ -31,4 +31,6 @@
 -DONE Make it possible to log in
 -DONE Create a simple my account page
 -DONE Proceed to checkout (Authentication)
--Create a simple success page
+-DONE Create a simple success page
+-Show my orders on the my account page
+    -An order should be a component
