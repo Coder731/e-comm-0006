@@ -32,5 +32,16 @@
 -DONE Create a simple my account page
 -DONE Proceed to checkout (Authentication)
 -DONE Create a simple success page
--Show my orders on the my account page
+-DONE Show my orders on the my account page
     -An order should be a component
+-Deploy Django
+    -Create a server and access it
+    -Install software
+    -Create postgres database
+    -Create users and virtual environment
+    -Install packages and get project files
+    -Create separate settings file for production
+    -Set up gunicorn
+    -Set up supervisor
+    -Obtain SSL certificate
+    -Set up nginx

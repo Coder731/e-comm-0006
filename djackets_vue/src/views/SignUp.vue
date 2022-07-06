@@ -50,7 +50,7 @@ import axios from 'axios'
 import { toast } from 'bulma-toast'
 
 export default {
-    name: 'Sign-up',
+    name: 'SignUp',
     data() {
         return { 
             username: '',
@@ -70,7 +70,7 @@ export default {
             if (!this.errors.length) {
                 const formData = {
                     username: this.username,
-                    password: this.password,
+                    password: this.password
                 }
 
                 axios
@@ -89,7 +89,7 @@ export default {
                     })
                     .catch(error => {
                         if (error.response) {
-                            for (const property in error.responsedata) {
+                            for (const property in error.response.data) {
                                 this.errors.push(`${property}: ${error.response.data[property]}`)
                             }
 

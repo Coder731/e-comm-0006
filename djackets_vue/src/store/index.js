@@ -7,7 +7,7 @@ export default createStore({
     },
     isAuthenticated: false,
     token: '',
-    isLoading: false,
+    isLoading: false
   },
   mutations: {
     initializeStore(state) {
@@ -42,9 +42,14 @@ export default createStore({
       state.token = token
       state.isAuthenticated = true
     },
-    removeToken(state, token) {
+    removeToken(state) {
       state.token = ''
       state.isAuthenticated = false
+    },
+    clearCart(state) {
+      state.cart = { items: [] }
+
+      localStorage.setItem('cart', JSON.stringify(state.cart))
     },
   },
   actions: {

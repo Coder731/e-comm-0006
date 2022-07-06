@@ -25,8 +25,15 @@ SECRET_KEY = 'django-insecure-ictef!a88f=kf)_74=awkbnltum6m@d697l4l!60(st^&n6%t_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    # "http://127.0.0.1:8000/",
+    # "http://127.0.0.1/",
+    # '127.0.0.1/',
+    # 'localhost/',
+    # '127.0.0.1'
+]
 
+STRIPE_SECRET_KEY = 'sk_test_51LIAHCJevobVooY4kHZV3ltnZjO73Uqadc9aANn2jbpLc7axMpM38e9tZUDlqLrG0gQDE5z9OKdVQErYANEnNK7E00PsYBhKQn'
 
 # Application definition
 
@@ -43,11 +50,13 @@ INSTALLED_APPS = [
     'corsheaders',
     'djoser',
     
-    'product'
+    'product',
+    'order'
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
+    "http://localhost:8081",
 ]
 
 MIDDLEWARE = [
@@ -120,6 +129,8 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+
+# USE_L10N = True
 
 USE_TZ = True
 
